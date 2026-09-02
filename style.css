@@ -781,3 +781,21 @@ a { color: inherit; text-decoration: none; }
         display: none !important;
     }
 }
+
+/* --------------- COVER LETTER --------------- */
+.cover-letter-text p {
+    margin-bottom: 1.2rem;
+    line-height: 1.85;
+    color: var(--text-200);
+    font-size: 1.02rem;
+}
+.cover-letter-text p:last-child {
+    margin-bottom: 0;
+}
+.cover-letter-text {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.eyebrow{color:var(--accent-light);font-size:.75rem;font-weight:700;letter-spacing:.14em;margin-bottom:.65rem}.action-bar{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}.primary-action,.secondary-action{border-radius:9px;display:inline-flex;font-size:.9rem;font-weight:700;padding:.7rem 1rem;transition:transform .2s,background .2s,border-color .2s}.primary-action{background:var(--accent);color:#07111d}.secondary-action{border:1px solid var(--border-hover);color:var(--text-100)}.primary-action:hover,.secondary-action:hover{transform:translateY(-2px)}.secondary-action:hover{background:var(--accent-glow)}.lead-copy{font-size:1.08rem;max-width:880px}.lead-copy p+p,.compact-copy p+p{margin-top:1rem}.metrics-section{padding-bottom:1.8rem}.metric-grid{display:grid;gap:1rem;grid-template-columns:repeat(4,1fr)}.metric{background:rgba(255,255,255,.025);border:1px solid var(--border-subtle);border-radius:var(--radius-sm);padding:1.15rem}.metric strong{color:var(--accent-light);display:block;font-family:var(--font-display);font-size:2rem;line-height:1;margin-bottom:.5rem}.metric span,.section-note{color:var(--text-300);font-size:.8rem;line-height:1.45}.section-note{margin-top:1rem}.compact-copy{font-size:.93rem}.section-icon{font-size:.72rem;font-weight:800}:focus-visible{outline:3px solid var(--accent-light);outline-offset:3px}@media(max-width:860px){.metric-grid{grid-template-columns:repeat(2,1fr)}.hero-badge{position:static;margin:0 0 1.25rem;width:max-content}.action-bar{justify-content:center}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
